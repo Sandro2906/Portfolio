@@ -1,5 +1,6 @@
 import React from 'react';
 import fitness from '../assets/ssss.PNG'
+import weatherApp from '../assets/weatherApp.png'
 import Nothing from '../assets/Nothing_whitespace_blank.png'
 
 const Portfolio = () => {
@@ -13,7 +14,9 @@ const Portfolio = () => {
         },
         {
             id:2,
-            src:Nothing
+            src:weatherApp,
+            webSite: 'https://weather-app-beryl-beta.vercel.app/?fbclid=IwAR1J2r8c94b7gn7GlScDG97P14_fG9kWhiTobitNBnt47I3tubdxsSGjcxQ',
+            code: 'https://github.com/Sandro2906/WeatherApp'
         },
         {
             id:3,
