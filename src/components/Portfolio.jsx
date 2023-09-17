@@ -2,15 +2,17 @@ import React from 'react';
 import fitness from '../assets/ssss.PNG'
 import weatherApp from '../assets/weatherApp.png'
 import Nothing from '../assets/Nothing_whitespace_blank.png'
+import Guarana from '../assets/main_en_1581299777_brainer.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id:1,
-            src: fitness,
-            webSite: 'https://web-fitness-six.vercel.app/?fbclid=IwAR3UthLxdPyytR1lUFrCvf0o-3P0J7NijXRlvAasvamYquKWJv674rnEvWY',
-            code: 'https://github.com/Sandro2906/webFitness'
+            src: Guarana,
+            webSite: 'https://guarana-web-site.vercel.app/?fbclid=IwAR0UaQaPpn7fkALYyr9-h1-wpU4-Ak-2iXIbiBhTgSYNEgGblnBz1YYC568',
+            code: 'https://github.com/Sandro2906/GuaranaWebSite2'
+           
         },
         {
             id:2,
@@ -20,7 +22,10 @@ const Portfolio = () => {
         },
         {
             id:3,
-            src:Nothing
+            src:fitness,
+            webSite: 'https://web-fitness-six.vercel.app/?fbclid=IwAR3UthLxdPyytR1lUFrCvf0o-3P0J7NijXRlvAasvamYquKWJv674rnEvWY',
+            code: 'https://github.com/Sandro2906/webFitness'
+            
         },
         {
             id:4,
